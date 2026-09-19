@@ -19,7 +19,7 @@ spec:
     spec: 
       containers: 
       - name: sample-frontend 
-        image: 
+        image: sivaphanikumar/sample-frontend
         ports:
         - containerPort: 80
         resources:
