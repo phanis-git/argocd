@@ -18,8 +18,8 @@ spec:
         project: sample-frontend
     spec: 
       containers: 
-      - name: sample-frontend 
-        image: sivaphanikumar/sample-frontend
+      - name: argo-frontend 
+        image: sivaphanikumar/argo-frontend:v1 
         ports:
         - containerPort: 80
         resources:
