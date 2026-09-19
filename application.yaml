@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/phanis-git/argocd.git
     targetRevision: HEAD
-    path: dev
+    path: kubernetes
   destination: 
     server: https://kubernetes.default.svc
     namespace: my-cluster-namespace
